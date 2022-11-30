@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <audio id="myAudio">
+        <source src="wrong.mp3" type="audio/mpeg">
+      </audio>
+
+    <header>
+        <h1>Math Fun for Kids</h1>
+        <ul>
+            <li><button class="add">Add</button></li>
+        <li><button class="sub">Subtract</button></li>
+        <li><button class="mul">Multiply</button></li>
+        <li><button class="div">Divide</button></li>
+        </ul>
+    </header>
+
+
+    <div class="container">
+
+        <div class="equation">
+            <h1 id="num1">1</h1>
+            <h1 id="operand">+</h1>
+            <h1 id="num2">2</h1>
+            <h1 id="equal">=</h1>
+            <h1 id="result"></h1>
+        </div>
+
+<div class="options">
+    <button id="firstOption">1</button>
+    <button id="secondOption">2</button>
+    <button id="thirdOption">3</button>
+
+</div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    font-family: 'Luckiest Guy', cursive;
+    background-color: #E6E6EA;
+  }
+
+  header h1{
+      text-align: center;
+      color: purple;
+      margin: 40px;
+      font-size: 60px;
+      letter-spacing: 2px;
+  }
+
+  header ul{
+      display: flex;
+      justify-content: space-around;
+  }
+
+  header ul li button{
+      font-size: 30px;
+      padding: 20px;
+      border-radius: 10px;
+      border-color: aqua;
+      outline: none;
+      font-family: 'Luckiest Guy', cursive;
+
+  }
+
+  header ul li button.add{
+      color: rgb(105, 48, 197);
+  }
+
+  header ul li button.sub{
+    color: rgb(49, 225, 102);
+}
+
+header ul li button.mul{
+    color: rgb(222, 67, 24);
+}
+
+header ul li button.div{
+    color: rgb(17, 146, 174);
+}
+
+  header ul li{
+      list-style: none;
+  }
+
+.container {
+  display: flex;
+  margin-top: 130px;
+  align-items: center;
+  justify-content: center;
+}
+
+.equation {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.equation h1 {
+    font-size: 64px;
+  padding: 10px;
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+  
+}
+
+.options button{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 50px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    border-color: aqua;
+    outline: none;
+    margin-top: 30px;
+    font-weight: normal;
+}
